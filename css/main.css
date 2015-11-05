@@ -61,23 +61,48 @@ textarea {
     src: url('../fonts/Inconsolata-Regular.ttf'); /*URL to font*/
 }
 
-#wrapper{
-    position: relative;
-    left: 50%;
-    top: 50%; /* ???? */
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    overflow: auto;
+    white-space: nowrap;
+    text-align: center;
+
+    &:before {
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        content: '';
+    }
 }
 
-#wrapper span {
+
+
+.block {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;}
+
+img {
+    display: block;
+    border: none;
+}
+
+
+span {
     font-family: "InconsolataRegular", monospace;
     font-size: 74px;
     color: #d6d5d5;
     background-color: #3d3f3f;
-
     padding: 0 28px;
     display: block;
+    white-space: nowrap;
+    overflow: hidden;
 }
-
-
 
 
 
