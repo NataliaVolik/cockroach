@@ -56,7 +56,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@font-face {
+    font-family: 'InconsolataRegular'; /*a name to be used later*/
+    src: url('../fonts/Inconsolata-Regular.ttf'); /*URL to font*/
+}
 
+#wrapper{
+    position: relative;
+    left: 50%;
+    top: 50%; /* ???? */
+}
+
+#wrapper span {
+    font-family: "InconsolataRegular", monospace;
+    font-size: 74px;
+    color: #d6d5d5;
+    background-color: #3d3f3f;
+
+    padding: 0 28px;
+    display: block;
+}
 
 
 
