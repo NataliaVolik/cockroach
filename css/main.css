@@ -61,6 +61,9 @@ textarea {
     src: url('../fonts/Inconsolata-Regular.ttf'); /*URL to font*/
 }
 
+body{
+
+}
 
 .wrapper {
     width: 100%;
@@ -90,6 +93,7 @@ textarea {
 img {
     display: block;
     border: none;
+    margin-bottom: 10px;
 }
 
 
@@ -102,6 +106,7 @@ span {
     display: block;
     white-space: nowrap;
     overflow: hidden;
+
 }
 
 
@@ -118,8 +123,44 @@ span {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media screen and (max-width: 480px) {
+.block{
+    width: 100%;
+    padding: 0 1%;
+}
 
+    span{
+        display: block;
+        font-size: 24px;
+        color: #d6d5d5;
+        padding: 0 1%;
+    }
+}
+
+    img {
+        max-width: 10%;
+        height: auto;
+        width: auto\9; /* ie8 */
+    }
+
+@media screen and (max-width: 1024px) {
+    .block{
+        width: 80%;
+        padding: 0 1%;
+    }
+
+    span{
+        display: block;
+        font-size: 34px;
+        color: #d6d5d5;
+        padding: 0 1%;
+    }
+
+    img {
+        max-width: 20%;
+        height: auto;
+        width: auto\9; /* ie8 */
+    }
 }
 
 @media print,
