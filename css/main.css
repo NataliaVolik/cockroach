@@ -75,12 +75,12 @@ body{
     white-space: nowrap;
     text-align: center;
 
-    &:before {
-        height: 100%;
-        display: inline-block;
-        vertical-align: middle;
-        content: '';
-    }
+    /*&:before {*/
+        /*height: 100%;*/
+        /*display: inline-block;*/
+        /*vertical-align: middle;*/
+        /*content: '';*/
+    /*}*/
 }
 
 
@@ -93,7 +93,7 @@ body{
 img {
     display: block;
     border: none;
-    margin-bottom: 10px;
+    margin: 0 auto 10px auto;
 }
 
 
