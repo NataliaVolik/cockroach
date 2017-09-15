@@ -74,13 +74,6 @@ body{
     overflow: auto;
     white-space: nowrap;
     text-align: center;
-
-    /*&:before {*/
-        /*height: 100%;*/
-        /*display: inline-block;*/
-        /*vertical-align: middle;*/
-        /*content: '';*/
-    /*}*/
 }
 
 
@@ -108,16 +101,6 @@ span {
     overflow: hidden;
 
 }
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Media Queries
